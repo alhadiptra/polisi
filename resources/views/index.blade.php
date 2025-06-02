@@ -1,14 +1,17 @@
-    @extends('components.master')
+        @extends('components.master')
 
-    @section('content')
-    <div class="row">
-        <div class="col-lg-8 d-flex align-items-stretch">
-    <div class="card w-100">
-        <div class="card-body d-flex justify-content-center align-items-center">
-            <img src="{{ asset('assets/images/logos/111.jpg') }}" alt="Ilustrasi Polisi Anak" class="img-fluid rounded shadow">
+        @section('content')
+        <div class="row">
+            <div class="col-lg-8 d-flex align-items-stretch">
+        <div class="card w-100">
+            <div class="card-body d-flex justify-content-center align-items-center">
+                <div style="position: absolute; top: 10px; left: 20px; z-index: 1;">
+                        <h4 class="text-dark  px-3 py-1 ">Police Department</h4>
+                    </div>
+                <img src="{{ asset('assets/images/logos/111.jpg') }}" alt="Ilustrasi Polisi Anak" class="img-fluid rounded shadow" style="margin-top: -500px;">
+            </div>
         </div>
     </div>
-</div>
 
 
         <div class="col-lg-4">
