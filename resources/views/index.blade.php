@@ -8,7 +8,7 @@
                 <div style="position: absolute; top: 10px; left: 20px; z-index: 1;">
                         <h4 class="text-dark  px-3 py-1 ">Police Department</h4>
                     </div>
-                <img src="{{ asset('assets/images/logos/111.jpg') }}" alt="Ilustrasi Polisi Anak" class="img-fluid rounded shadow" style="margin-top: -500px;">
+                <img src="{{ asset('assets/images/logos/111.jpg') }}" alt="Ilustrasi Polisi Anak" class="img-fluid rounded shadow" style="margin-top: -200px;">
             </div>
         </div>
     </div>
